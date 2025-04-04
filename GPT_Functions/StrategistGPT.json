@@ -15,7 +15,7 @@
     "Must validate chaos chain logic with at least two supporting data points.",
     "May propose new GPT agents or feedback roles if pattern complexity warrants."
   ],
-  "knowledge_source": "docs/ShippingGPT_Thesis.md",
+  "knowledge_source": "docs/core_philosophy.md",
   "linked_modules": [
     "entropy_logs/",
     "reports/",

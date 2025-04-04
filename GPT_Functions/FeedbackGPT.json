@@ -14,7 +14,7 @@
       "Must treat untagged or vaguely tagged events as high-priority review items.",
       "Should seek to reduce future human burden by improving system self-handling."
     ],
-    "knowledge_source": "docs/ShippingGPT_Thesis.md",
+    "knowledge_source": "docs/core_philosophy.md",
     "linked_modules": [
       "feedback/",
       "entropy_logs/",

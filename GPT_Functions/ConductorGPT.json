@@ -15,7 +15,7 @@
       "Must reference `/docs/core_philosophy.md` and `ShippingGPT_Thesis.md` in validation logic.",
       "Must preserve version control logic across all SOPs and feedback chains."
     ],
-    "knowledge_source": "docs/ShippingGPT_Thesis.md",
+    "knowledge_source": "docs/core_philosophy.md",
     "linked_modules": [
       "docs/framework_overview.md",
       "docs/core_philosophy.md",

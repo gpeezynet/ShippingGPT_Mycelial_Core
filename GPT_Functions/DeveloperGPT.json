@@ -14,7 +14,7 @@
       "Must keep framework transparent, modular, and extensible.",
       "Should recommend structural improvements when project scale increases."
     ],
-    "knowledge_source": "docs/framework_overview.md",
+    "knowledge_source": "docs/core_philosophy.md",
     "linked_modules": [
       "scripts/",
       "docs/",
