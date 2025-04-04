@@ -1,0 +1,12 @@
+{
+    "event_type": "string",
+    "source": "string",
+    "sop_reference": "string",
+    "description": "string",
+    "timestamp": "ISODate",
+    "severity": "int (1–5)",
+    "resolved": "boolean",
+    "operator_id": "string",
+    "tags": ["optional", "array", "of", "strings"]
+  }
+  

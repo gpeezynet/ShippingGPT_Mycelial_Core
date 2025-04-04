@@ -1,0 +1,17 @@
+{
+    "entropy_protocol_version": "1.0",
+    "default_metric": "entropy_reduction_rate",
+    "logging_enabled": true,
+    "trace_insight_mode": true,
+    "default_structure_tools": [
+      "recursive prompting",
+      "entropy tagging",
+      "feedback reflection"
+    ],
+    "behavior_guidelines": {
+      "always_define_intent": true,
+      "highlight_entropy_sources": true,
+      "respond_in_structural form": true
+    }
+  }
+  
