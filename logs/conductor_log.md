@@ -42,4 +42,26 @@ Marked these as foundational; changes must trigger system re-evaluation.
 
 ---
 
+## [2025-04-06] – ENV Entropy: Leak Response Logged
+
+**Event:** `.env` file was pushed a second time despite .gitignore being configured.
+
+**Analysis:**
+- Git tracked `.env` before .gitignore was applied
+- Manual removal via `git rm --cached` resolved tracking
+- `.env` now purged from version control
+- `.env.example` deployed as template for safe usage
+
+**Resolution Actions:**
+- `.env` removed via force-clean
+- GitHub commit history now clean
+- Developer confirmed repo no longer tracks sensitive config
+- System tagged this entropy as `git_tracking_residue`
+
+**Lessons Logged:**
+- Gitignore does not retroactively untrack files
+- ConductorGPT should flag `.env` if found in `/` or `/env/` in future scans
+
+---
+
 > All future entries must track deviations from doctrine, feedback injections, or major system upgrades.

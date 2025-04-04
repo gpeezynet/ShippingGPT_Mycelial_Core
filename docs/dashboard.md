@@ -62,6 +62,13 @@
 
 ---
 
+| Picking Station     | v2              | 2025-04-06     | Scan logic, bin tracking added     |
+
+| Mis-pick            | 1     | Picking Station             | Resolved in v2 |
+| Bin Swap            | 1     | Picking Station             | Under Review   |
+
+---
+
 > 📁 All dashboard data is sourced from structured files.  
 > 🧠 No AI logic is embedded here—this is a system mirror.
 
