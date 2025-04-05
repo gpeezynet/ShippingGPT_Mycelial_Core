@@ -1,28 +1,35 @@
 # GPT Entropy Log Summary – Past 7 Days
 
-Total Events: 2
+Total Events: 3
 Date Range: 7 days ending 2025-04-04
 
-Unresolved Events: 1
+Unresolved Events: 3
 
 ## 🔥 Event Breakdown by Type:
-- label_generation_failure: 1
-- barcode_scan_failure: 1
+- barcode_scan_failure\: 1
+- label_generation_failure: 2
 
 ---
 
 ## 📄 Event Details
 
+### • barcode_scan_failure\ @ "Packing Station B\
+- Operator: JHUNT\
+- Status: resolved\
+- Time: 2025-04-05 00:30:08 UTC
+- Notes: Scan failed 2x before override.\
+- Root Cause: scanner_misalignment\
+
 ### • label_generation_failure @ Label Station A
 - Operator: ZREED
 - Status: escalated
-- Time: 2025-04-04 18:04:22 UTC
-- Notes: Test run: label API timeout during batch print
+- Time: 2025-04-05 01:00:34 UTC
+- Notes: Label API call failed, then succeeded with stale manifest. Label printed with wrong carrier.
 - Root Cause: api_latency
 
-### • barcode_scan_failure @ Packing Station B
-- Operator: JHUNT
-- Status: resolved
-- Time: 2025-04-04 18:08:45 UTC
-- Notes: test Done
-- Root Cause: na
+### • label_generation_failure @ Label Station A
+- Operator: ZREED
+- Status: escalated
+- Time: 2025-04-05 01:06:05 UTC
+- Notes: Label API call failed, then returned stale manifest. Label printed with wrong carrier.
+- Root Cause: api_latency

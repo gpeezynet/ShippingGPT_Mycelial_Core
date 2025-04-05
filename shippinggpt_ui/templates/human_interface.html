@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Human Interface</title>
+</head>
+<body>
+  <h2>👤 Operator Reflection Panel</h2>
+  <p>This is your space. Log notes. Ask MentorGPT. Center yourself in the loop.</p>
+
+  <form method="post" action="/submit-reflection">
+    <textarea name="reflection" rows="5" cols="50" placeholder="What stood out to you today?"></textarea><br>
+    <input type="submit" value="Log Insight">
+  </form>
+
+  <h3>🗂️ Recent Reflections:</h3>
+  <ul>
+    {% for file in files %}
+      <li>{{ file }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
