@@ -64,4 +64,24 @@ Marked these as foundational; changes must trigger system re-evaluation.
 
 ---
 
+## [2025-04-06] – SOP Deployed from Chaos Pattern Escalation
+
+- Location: Packing Station B
+- Entropy Triggered: barcode_scan_failure (Operators: JSMITH, JHUNT)
+- Escalated By: ShippingGPT
+- Reviewed By: FeedbackGPT
+- Validated By: ConductorGPT
+- SOP Action: packing_station_v2.md deployed
+- Notes: Scanner failure and SOP ambiguity confirmed. UI and hardware mitigation steps enforced.
+- Tag Correction: Event on 2025-04-06 updated to `hardware_failure`
+- Next Watchpoint: 7-day trend via ShippingGPT
+- Feedback File: `feedback/packing_station/2025-04-06_barcode_scan_failure.md`
+
+---
+
+## [2025-04-06] – SOP v2 Deployment Confirmed  
+- packing_station_v2.md fully deployed  
+- label_pipeline_v2.md approved, awaiting deployment  
+- packing_station_v1.md draft initiated (for loop #003)  
+
 > All future entries must track deviations from doctrine, feedback injections, or major system upgrades.
